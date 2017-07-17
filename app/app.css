@@ -1,0 +1,47 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+body{
+  padding-top:7em;
+}
+.card{
+  height:27em;
+  width:16em;
+  box-shadow: 1px 2px 3px grey;
+  border-radius: 7px;
+
+}
+.image{
+
+  border:1px solid grey;
+}
+img.thumbnail{
+  padding: 0;
+  margin: 0;
+}
+/**/
+.card:hover{
+  box-shadow:  3px 4px 5px grey;
+}
